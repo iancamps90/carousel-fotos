@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    
+    <style>
+        .carousel-inner{
+            height: 0;
+            padding-bottom: 50%;
+        }
+        .carousel-item{
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+        .carousel-item img{
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+
+    <div>
+        <div class="carousel slide" id="carouselExample">
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="carousel-fotos/images/HD-wallpaper-ultra-ego-vegeta-dragon-ball-2023.jpg" class="d-block w-100">
+
+                    <div class="carousel-caption">
+                        <h1>titulo</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium cupiditate reprehenderit quasi atque, est vel dolorum ab voluptatibus provident molestiae ipsa placeat adipisci quod praesentium cum, aliquam nostrum a enim.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="carousel-fotos/images/Screenshot_20221020-185436_Instagram.jpg" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h1>titulo</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium cupiditate reprehenderit quasi atque, est
+                            vel dolorum ab voluptatibus provident molestiae ipsa placeat adipisci quod praesentium cum, aliquam nostrum a
+                            enim.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="carousel-fotos/images/super-saiyan-blue-evolved-vegeta-dragon-ball-legends-thumb-364x205.jpg" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h1>titulo</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium cupiditate reprehenderit quasi atque, est
+                            vel dolorum ab voluptatibus provident molestiae ipsa placeat adipisci quod praesentium cum, aliquam nostrum a
+                            enim.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="carousel-fotos/images/super-saiyan-goku-2880x1800-13279.jpg" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h1>titulo</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium cupiditate reprehenderit quasi atque, est
+                            vel dolorum ab voluptatibus provident molestiae ipsa placeat adipisci quod praesentium cum, aliquam nostrum a
+                            enim.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="carousel-fotos/images/unnamed.jpg" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h1>titulo</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium cupiditate reprehenderit quasi atque, est
+                            vel dolorum ab voluptatibus provident molestiae ipsa placeat adipisci quod praesentium cum, aliquam nostrum a
+                            enim.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="carousel-fotos/images/unnamed5.jpg" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h1>titulo</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium cupiditate reprehenderit quasi atque, est
+                            vel dolorum ab voluptatibus provident molestiae ipsa placeat adipisci quod praesentium cum, aliquam nostrum a
+                            enim.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Previus</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="4"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="5"></button>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+</html>
